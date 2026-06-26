@@ -1,5 +1,12 @@
 # .gitignore
-venv/
-__pycache__/
-.idea/
 .DS_Store
+# Coverage
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.idea/
